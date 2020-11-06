@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Jost', sans-serif;
   background-image: url('./images/map21.jpg');
 }
 
@@ -17,13 +17,13 @@ h1 {
   margin: 0;
   font-size: 100px;
   color: white;
-  text-shadow: black 1px 1px 8px, black -1px -1px 8px, black -1px 1px 8px,
-    black 1px -1px 8px;
+  text-shadow: #4d361f 1px 1px 8px, #4d361f -1px -1px 8px, #4d361f -1px 1px 8px,
+    #4d361f 1px -1px 8px;
 }
 
 .input-search {
   color: black;
-  border: 3px solid rosybrown;
+  border: 3px solid #4d361f;
   outline: none;
 }
 
