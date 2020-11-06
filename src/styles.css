@@ -9,12 +9,28 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: 'Dancing Script', cursive;
+  background-image: url('./images/map21.jpg');
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+h1 {
+  margin: 0;
+  font-size: 100px;
+  color: white;
+  text-shadow: black 1px 1px 8px, black -1px -1px 8px, black -1px 1px 8px,
+    black 1px -1px 8px;
+}
+
+.input-search {
+  color: black;
+  border: 3px solid rosybrown;
+  outline: none;
+}
+
+.countryList {
+}
+
+.country-name {
+}
+.about-country {
 }
