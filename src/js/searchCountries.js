@@ -19,6 +19,9 @@ let searchedCountry = '';
 function searchCountry() {
   clearSearch();
   searchedCountry = refs.input.value;
+  if (!searchedCountry) {
+    return;
+  }
   countryApi(searchedCountry)
     .then(displayResults)
     .catch(err => console.log(err));
@@ -30,10 +33,8 @@ function clearSearch() {
 
 function displayResults(countries) {
   if (countries.length === 1) {
-    clearSearch();
     displayContries(countryData, countries);
   } else if (countries.length > 1 && countries.length <= 10) {
-    clearSearch();
     displayContries(countryList, countries);
   } else if (countries.length > 10) {
     createMessage(
